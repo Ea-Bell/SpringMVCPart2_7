@@ -31,7 +31,7 @@ public class ServletUploadControllerV1 {
 
         Collection<Part> parts = request.getParts();
         log.info("parts = {}", parts);
-
+        //테스트 커밋입니다.
         return "upload-form";
     }
 }
